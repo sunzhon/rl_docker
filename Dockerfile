@@ -1,4 +1,7 @@
-FROM nvcr.io/nvidia/pytorch:21.09-py3
+# RTX3070
+#FROM nvcr.io/nvidia/pytorch:21.09-py3 
+# RTX4090
+FROM nvcr.io/nvidia/pytorch:22.12-py3 
 
 # set WORKDIR
 WORKDIR /home/root/rl_ws
